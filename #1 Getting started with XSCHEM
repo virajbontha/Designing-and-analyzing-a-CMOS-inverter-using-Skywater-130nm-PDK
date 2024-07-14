@@ -12,3 +12,11 @@ xterm &
 // Type in the following command in the xterm terminal to launch XSCHEM Schematic Window.
 xschem
 //Save your file with the .sch extension.
+
+Things to write in code_shown.sym ".lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.dc Vds 0 1.8 .1m Vgs 0 2 .3   
+.save all 
+.end"
+
+
+Shift+A to show netlist window
