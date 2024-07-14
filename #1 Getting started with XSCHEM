@@ -1,0 +1,14 @@
+// Open terminal and type in the following commands.
+mkdir CMOS_Inverter
+cd CMOS_Inverter
+cp /usr/local/share/pdk/sky130B/libs.tech/xschem/xschemrc .
+ls
+// You should be able to see the xschemrc in the command terminal now.
+// This was done to integrate the SKY130 PDK with XSCHEM and now you can use the PDK in your schematic.
+
+//Open the Xterm with the following command.
+xterm &
+
+// Type in the following command in the xterm terminal to launch XSCHEM Schematic Window.
+xschem
+//Save your file with the .sch extension.
