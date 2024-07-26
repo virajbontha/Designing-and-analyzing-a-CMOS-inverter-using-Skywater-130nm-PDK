@@ -20,3 +20,15 @@ Things to write in code_shown.sym ".lib /usr/local/share/pdk/sky130A/libs.tech/n
 
 
 Shift+A to show netlist window
+
+press e to enter a symbol and ctrl+e to exit out of a symbol.
+
+Always connect the body pins.
+
+Read theory of cmos_inverter.
+
+Press netlist to get errors, if any.
+Press simulate. write display to get list of possible graphs u can plot.
+
+vm is the threshold value like above voltage above vm is logic 1 otherwise 0. To improve this, increase W (width) of pmos in the symbol.
+To measure vm in the graph type in the following in the ngspice simulate window: meas dc vm vin=vout
